@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>For Her ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <canvas id="rainCanvas"></canvas>
+
+  <audio id="bgMusic" src="my_audio.mp3" loop></audio>
+
+  <center> <button class="heart-button" onclick="revealContent()">❤️</button> </center>
+  <div class="reveal-text">Touch the heart to reveal</div>
+  <div class="content" id="mainContent">
+    <div class="slider">
+      <div class="slides" id="slides">
+        <div class="slide">Lately, you've been drifting... and I feel it like silence between two songs we used to love. 🎶😔</div>
+
+<div class="slide">You’re still close in distance, but miles away in presence — and it breaks me quietly, piece by piece. 🥀💭</div>
+
+<div class="slide">Maybe I failed to hold you right, or maybe I spoke less when I should’ve spoken love. 💬💔</div>
+
+<div class="slide">If there’s a way to reach you again — through time, through pain, through space — I’d take it barefoot, with every sorry I never said out loud. 🕰️🚶‍♂️💧</div>
+
+<div class="slide">Don’t just be my memory. Be my miracle. Because I still need you — in every version of my tomorrow. 🌈💖</div>
+      </div>
+    </div>
+    <div class="nav-buttons">
+      <button onclick="prevSlide()">← Prev</button>
+      <button onclick="nextSlide()">Next →</button>
+    </div>
+  </div>
+
+  <div class="final-message" id="finalMessage">
+    <div class="typing-effect" id="typingText"></div>
+    <button onclick="backToHeart()"
+      style="margin-top: 20px; background:#e60073; color:white; border:none; padding:10px 20px; border-radius:8px; cursor:pointer;">
+      Back to Heart ❤️
+    </button>
+  </div>
+
+
+</body>
+<script src="index.js"></script>
+
+</html>
